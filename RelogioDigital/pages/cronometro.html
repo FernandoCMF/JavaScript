@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <title>Relogio-Digital</title>
+  </head>
+  <body>
+    <div class="relogio">
+      <div class="card">
+        <h1 id="cronometro">00:00:00</h1>
+      </div>
+    </div>
+    <div class="nav-botoes">
+      <button class="botao" id="btnIniciar" onclick="iniciarTempo()">
+        Iniciar
+      </button>
+      <button class="botao" id="btnParar" onclick="pararTempo()">Parar</button>
+      <button class="botao" id="btnZerar" onclick="zerar()">Zerar</button>
+    </div>
+
+    <div class="nav-botoes">
+      <a id="botao" class="botao" href="../index.html">Relogio</a>
+      <a id="botao" class="botao" href="">Pomodoro</a>
+    </div>
+    <script src="../assets/js/cronometro.js"></script>
+  </body>
+</html>

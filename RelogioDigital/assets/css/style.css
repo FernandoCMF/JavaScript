@@ -21,6 +21,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 }
 
 .relogio {
@@ -56,4 +57,28 @@ body {
 .relogio span.tempo {
   font-weight: lighter;
   font-size: 10px;
+}
+
+.nav-botoes {
+  width: 25em;
+  height: 3em;
+  border-radius: 3px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.botao {
+  height: 50%;
+  width: 6em;
+  color: #000000e6;
+  background: #fff;
+  text-align: center;
+  border-radius: 5px;
+  border: none;
+  font-weight: lighter;
+  font-size: 20px;
+  text-decoration: none !important;
+  cursor: pointer;
 }
