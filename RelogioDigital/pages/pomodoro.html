@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <title>Pomodoro</title>
+  </head>
+  <body>
+    <h1>Pomodoro</h1>
+    <div class="relogio">
+      <div class="card">
+        <h1 id="tempo">00:00:00</h1>
+      </div>
+    </div>
+    <h2>Intervalos</h2>
+    <div class="nav-botoes">
+      <button class="botao" id="btn1Hora" onclick="tempo1hora()">1 hora</button>
+      <button class="botao" id="btn25Minutos" onclick="play25Min()">
+        25 min
+      </button>
+      <button class="botao" id="btn5Minutos" onclick="play5Min()">5 min</button>
+    </div>
+
+    <div class="nav-botoes">
+      <a id="botao" class="botao" href="../index.html">Relogio</a>
+      <a id="botao" class="botao" href="../pages/cronometro.html">Cronometro</a>
+    </div>
+    <script src="../assets/js/pomodoro.js"></script>
+  </body>
+</html>
