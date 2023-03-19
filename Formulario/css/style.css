@@ -27,10 +27,14 @@ body {
 }
 
 .content {
-  border: 2px solid red;
+  background-color: #7863fc;
   width: 60%;
-  height: 70%;
+  height: 80%;
   display: flex;
+  border-radius: 5px;
+  -webkit-box-shadow: -1px 1px 16px 0.05px rgb(255, 0, 255);
+  -moz-box-shadow: -1px 1px 16px 0.05px rgb(255, 0, 255);
+  box-shadow: -1px 1px 16px 0.05px rgb(255, 0, 255);
 }
 .content .contentPicture {
   border: 2px solid green;
@@ -38,9 +42,48 @@ body {
   height: 100%;
 }
 .content .contentForm {
-  border: 2px solid blue;
   width: 50%;
   height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.content .contentForm h2 {
+  margin-top: 70px;
+  font-size: 4rem;
+}
+.content .contentForm p {
+  font-size: 15px;
+  margin-top: 4px;
+}
+.content .contentForm .form {
+  margin-top: 2rem;
+}
+.content .contentForm .form .itemForm {
+  display: flex;
+  flex-direction: column;
+  margin: 15px 0 15px 0px;
+}
+.content .contentForm .form .itemForm label {
+  font-size: 18px;
+}
+.content .contentForm .form .itemForm input {
+  color: #292a2e;
+  width: 25rem;
+  height: 30px;
+  background-color: #f3f5fd;
+  border: 1px solid #f43910;
+  border-radius: 2px;
+  outline: none;
+  padding-left: 10px;
+}
+.content .contentForm .form .button {
+  color: #292a2e;
+  height: 30px;
+  width: 100px;
+  background-color: #f3f5fd;
+  border: 1px solid #f43910;
+  border-radius: 2px;
 }
 
 /*# sourceMappingURL=style.css.map */
