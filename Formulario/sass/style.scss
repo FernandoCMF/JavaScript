@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #292a2e;
+  font-size: 1.6rem;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  h1 {
+    font-size: 3rem;
+  }
+}
+
+.content {
+  border: 2px solid red;
+  width: 60%;
+  height: 70%;
+  display: flex;
+
+  .contentPicture {
+    border: 2px solid green;
+    width: 50%;
+    height: 100%;
+  }
+
+  .contentForm {
+    border: 2px solid blue;
+    width: 50%;
+    height: 100%;
+  }
+}
