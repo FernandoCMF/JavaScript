@@ -5,6 +5,18 @@
       "Name": "TESTE",
       "Email": "teste@teste.com",
       "Passwords": "teste123"
+    },
+    {
+      "id": 2,
+      "Name": "TESTE2",
+      "Email": "teste2@teste.com",
+      "Passwords": "2teste123"
+    },
+    {
+      "id": 3,
+      "Name": "TESTE3",
+      "Email": "teste3@teste.com",
+      "Passwords": "3teste123"
     }
   ]
 }

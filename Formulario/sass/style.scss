@@ -33,14 +33,15 @@ body {
   height: 80%;
   display: flex;
   border-radius: 5px;
-  -webkit-box-shadow: -1px 1px 16px 0.05px rgba(255, 0, 255, 1);
-  -moz-box-shadow: -1px 1px 16px 0.05px rgba(255, 0, 255, 1);
-  box-shadow: -1px 1px 16px 0.05px rgba(255, 0, 255, 1);
 
   .contentPicture {
-    border: 2px solid green;
     width: 50%;
     height: 100%;
+    display: flex;
+    align-items: end;
+    img {
+      width: 40rem;
+    }
   }
 
   .contentForm {
